@@ -1,0 +1,13 @@
+{
+    "AA/TT": {"DeltaH": -7.9, "DeltaS": -22.2},
+    "AT/TA": {"DeltaH": -7.2, "DeltaS": -20.4},
+    "TA/AT": {"DeltaH": -7.2, "DeltaS": -21.3},
+    "CA/GT": {"DeltaH": -8.5, "DeltaS": -22.7},
+    "GT/CA": {"DeltaH": -8.4, "DeltaS": -22.4},
+    "CT/GA": {"DeltaH": -7.8, "DeltaS": -21.0},
+    "GA/CT": {"DeltaH": -8.2, "DeltaS": -22.2},
+    "CG/GC": {"DeltaH": -10.6, "DeltaS": -27.2},
+    "GC/CG": {"DeltaH": -9.8, "DeltaS": -24.4},
+    "GG/CC": {"DeltaH": -8.0, "DeltaS": -19.9}
+  }
+  
