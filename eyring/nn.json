@@ -1,13 +1,34 @@
 {
-    "AA/TT": {"DeltaH": -7.9, "DeltaS": -22.2},
-    "AT/TA": {"DeltaH": -7.2, "DeltaS": -20.4},
-    "TA/AT": {"DeltaH": -7.2, "DeltaS": -21.3},
-    "CA/GT": {"DeltaH": -8.5, "DeltaS": -22.7},
-    "GT/CA": {"DeltaH": -8.4, "DeltaS": -22.4},
-    "CT/GA": {"DeltaH": -7.8, "DeltaS": -21.0},
-    "GA/CT": {"DeltaH": -8.2, "DeltaS": -22.2},
-    "CG/GC": {"DeltaH": -10.6, "DeltaS": -27.2},
-    "GC/CG": {"DeltaH": -9.8, "DeltaS": -24.4},
-    "GG/CC": {"DeltaH": -8.0, "DeltaS": -19.9}
+  "Sugimoto":{
+    "AA/TT": {"dH": -8.0, "dS": -21.9, "dG37": -1.2},
+    "AT/TA": {"dH": -5.6, "dS": -15.2, "dG37": -0.9},
+    "TA/AT": {"dH": -6.6, "dS": -18.4, "dG37": -0.9},
+    "CA/GT": {"dH": -8.2, "dS": -21.0, "dG37": -1.7},
+    "CT/GA": {"dH": -6.6, "dS": -16.4, "dG37": -1.5},
+    "GA/CT": {"dH": -8.8, "dS": -23.5, "dG37": -1.5},
+    "GT/CA": {"dH": -9.4, "dS": -25.5, "dG37": -1.5},
+    "CG/GC": {"dH": -11.8, "dS": -29.0, "dG37": -2.8},
+    "GC/CG": {"dH": -10.5, "dS": -26.4, "dG37": -2.3},
+    "GG/CC": {"dH": -10.9, "dS": -28.4, "dG37": -2.1},
+    "initiation": {"dH": 0.6, "dS": -9.0, "dG37": -3.4},
+    "self-complementary": {"dH": 0.0, "dS": -1.4, "dG37": 0.4},
+    "non-self-complementary": {"dH": 0.0, "dS": 0.0, "dG37": 0.0},
+    "units": {"dH": "kcal/mol", "dS": "cal/mol/K", "dG37": "kcal/mol"},
+    "estimated_errors": {"dH": 0.3, "dS": 1.3, "dG37": 0.1}
+  },
+  "SantaLucia_Hicks_2004":{
+    "AA/TT": {"dH": -7.6, "dS": -21.3, "dG37": -1.00},
+    "AT/AT": {"dH": -7.2, "dS": -20.4, "dG37": -0.88},
+    "TA/TA": {"dH": -7.2, "dS": -21.3, "dG37": -0.58},
+    "CA/TG": {"dH": -8.5, "dS": -22.7, "dG37": -1.45},
+    "GT/AC": {"dH": -8.4, "dS": -22.4, "dG37": -1.44},
+    "CT/AG": {"dH": -7.8, "dS": -21.0, "dG37": -1.28},
+    "GA/TC": {"dH": -8.2, "dS": -22.2, "dG37": -1.30},
+    "CG/CG": {"dH": -10.6, "dS": -27.2, "dG37": -2.17},
+    "GC/GC": {"dH": -9.8, "dS": -24.4, "dG37": -2.24},
+    "GG/CC": {"dH": -8.0, "dS": -19.9, "dG37": -1.84},
+    "initiation": {"dH": 0.2, "dS": -5.7, "dG37": 1.96},
+    "terminal_AT_penalty": {"dH": 2.2, "dS": 6.9, "dG37": 0.05},
+    "units": {"dH": "kcal/mol", "dS": "cal/mol/K", "dG37": "kcal/mol"}
   }
-  
+}
